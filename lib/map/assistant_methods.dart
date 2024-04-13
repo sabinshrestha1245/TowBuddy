@@ -33,7 +33,7 @@ class AssistantMethods {
           ? " "
           : placemarks[0].administrativeArea!;
       pickUpLocality =
-          placemarks[0].subAdministrativeArea == null ? " " : placemarks[0].subAdministrativeArea!;
+          placemarks[0].locality == null ? " " : placemarks[0].locality!;
       pickUpName =
           placemarks[0].name == null ? " " : placemarks[0].subLocality!;
 

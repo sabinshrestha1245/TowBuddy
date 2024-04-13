@@ -162,7 +162,6 @@ class _TowState extends State<Tow> {
 
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.cyan,
         elevation: 0,
         title: const Text(
           "Tow",

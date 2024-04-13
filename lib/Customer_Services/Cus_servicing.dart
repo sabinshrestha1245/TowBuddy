@@ -124,7 +124,6 @@ class _ServiceState extends State<Servicing> {
     final dateButton = Material(
       elevation: 5,
       borderRadius: BorderRadius.circular(30),
-      color: Color.fromARGB(255, 170, 248, 248),
       child: MaterialButton(
           padding: EdgeInsets.fromLTRB(20, 15, 20, 15),
           minWidth: MediaQuery.of(context).size.width,
@@ -159,7 +158,6 @@ class _ServiceState extends State<Servicing> {
     final timeButton = Material(
       elevation: 5,
       borderRadius: BorderRadius.circular(30),
-      color: Color.fromARGB(255, 170, 248, 248),
       child: MaterialButton(
           padding: EdgeInsets.fromLTRB(20, 15, 20, 15),
           minWidth: MediaQuery.of(context).size.width,
@@ -224,7 +222,6 @@ class _ServiceState extends State<Servicing> {
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: AppBar(
-        backgroundColor: Colors.cyan,
         elevation: 0,
         title: const Text(
           "Servicing",

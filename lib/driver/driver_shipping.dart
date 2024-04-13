@@ -44,7 +44,7 @@ class _DriverShippingState extends State<DriverShipping> {
                                                 Column(
                                                   children: const [
                                                     Text(
-                                                      "Thankot - kupondol",
+                                                      "Thankot - Kupondol",
                                                     ),
                                                     Text(
                                                       "A DE 1234",

@@ -91,7 +91,6 @@ class _ShipState extends State<Shipping> {
     final dateButton = Material(
       elevation: 5,
       borderRadius: BorderRadius.circular(30),
-      color: Color.fromARGB(255, 170, 248, 248),
       child: MaterialButton(
           padding: EdgeInsets.fromLTRB(20, 15, 20, 15),
           minWidth: MediaQuery.of(context).size.width,
@@ -124,7 +123,6 @@ class _ShipState extends State<Shipping> {
     final timeButton = Material(
       elevation: 5,
       borderRadius: BorderRadius.circular(30),
-      color: Color.fromARGB(255, 170, 248, 248),
       child: MaterialButton(
           padding: EdgeInsets.fromLTRB(20, 15, 20, 15),
           minWidth: MediaQuery.of(context).size.width,
@@ -189,7 +187,7 @@ class _ShipState extends State<Shipping> {
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: AppBar(
-        backgroundColor: Colors.cyan,
+        backgroundColor: Colors.white,
         elevation: 0,
         title: const Text(
           "Shipping",

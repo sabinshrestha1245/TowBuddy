@@ -133,7 +133,6 @@ class _RefuelState extends State<Refuling> {
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: AppBar(
-        backgroundColor: Colors.cyan,
         elevation: 0,
         title: const Text(
           "Refuling",

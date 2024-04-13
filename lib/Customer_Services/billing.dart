@@ -76,7 +76,6 @@ class _BillingState extends State<Billing> {
     );
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.cyan,
         elevation: 0,
         title: const Text(
           "Tow Details",
